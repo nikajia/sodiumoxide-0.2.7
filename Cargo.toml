@@ -30,8 +30,8 @@ default-features = false
 version = "^0.2.41"
 default-features = false
 
-[dependencies.libsodium-sys]
-path = "../libsodium-sys-0.2.7"
+[dependencies]
+libsodium-sys = { git = "https://github.com/nikajia/libsodium-sys-0.2.7.git" }
 
 [dependencies.serde]
 version = "^1.0.59"
